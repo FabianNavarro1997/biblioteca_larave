@@ -11,4 +11,7 @@
 |
 */
 
-Route::get('admin/sistema/permiso', 'PermisoController@index')->name('permiso');
+use Illuminate\Support\Facades\Route;
+
+Route::get('/', 'InicioController@index') ;
+
